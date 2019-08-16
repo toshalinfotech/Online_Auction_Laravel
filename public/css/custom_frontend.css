@@ -1,0 +1,38 @@
+.uper {
+    margin-top: 40px;
+  }
+
+.required_field{
+  color:red;
+}
+
+.table-striped{
+  margin-bottom: 0;
+}
+
+.error{
+  border: 2px solid red;
+}
+.success{
+  border: 2px solid green;
+}
+
+/* For Payment Form */
+
+.body { margin-top:20px; }
+.panel-title {display: inline;font-weight: bold;}
+.checkbox.pull-right { margin: 0; }
+.pl-ziro { padding-left: 0px; }
+
+/*
+ * Loader Image CSS
+ */
+.loader{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('Preloader_11.gif') 50% 50% no-repeat rgb(249,249,249);
+}
